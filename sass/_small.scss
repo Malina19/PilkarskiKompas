@@ -1,0 +1,30 @@
+@media(min-width: 576px){
+    
+	.header{
+		&__text{
+			img{
+				height: 55vh;
+				width: 55vh;
+			}
+		}
+	}
+    .aboutus {
+
+        // height: 55vh;
+		&__describtion {
+			font-size: 1.5rem;
+			z-index: 2;
+		}
+
+		&__text {
+			font-size: 1.5rem;
+			z-index: 2;
+		}
+
+		&__textend {
+			font-size: 1.8rem;
+		}
+    }
+    
+    
+}

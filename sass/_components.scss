@@ -1,0 +1,33 @@
+
+
+// Animacja linków//
+.nav__link,
+.nav__link::after,
+.nav__link::before{
+    transition: .3s;
+}
+
+
+.link-animation::before,
+.link-animation::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	bottom: 0;
+	border-bottom: 2px solid $greener;
+}
+
+.link-animation::before {
+	right: 50%;
+}
+
+.link-animation::after {
+	left: 50%;
+}
+
+.link-animation:hover::before,
+.link-animation:hover::after {
+	width: 30%;
+}
+
+
