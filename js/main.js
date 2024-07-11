@@ -11,7 +11,8 @@ const msgStatus = document.querySelector('.msg-status')
 // mail/////
 
 console.log(document.location.search);
-if (document.location.search === '?mail_status=sent'){
+
+if (document.location.search === '?mail_status=sent') {
 	msgStatus.classList.add('succes')
 	msgStatus.textContent = 'Wiadomość wysłana!'
 
