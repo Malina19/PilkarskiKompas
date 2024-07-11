@@ -10,6 +10,7 @@ $txt = "Imię: " . $name . "\r\n" . "Email: " . $from . "\r\n" . "\r\n" . "Treś
 
 $headers = "From: " . $from . "\r\n";
 $headers .= "Reply-To: " . $from . "\r\n";
+'X-Mailer: PHP/' . phpversion();
 
 $mail_status = mail($to, $subject, $txt, $headers);
 
