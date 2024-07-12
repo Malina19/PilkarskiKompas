@@ -3,7 +3,7 @@
 $name = $_POST["name"];
 $from = $_POST["email"];
 $subject = "Wiadomość z formularza na stronie Piłkarski Kompas";
-$to = "kontakt@piłkarskikompas.pl";
+$to = "kontakt@pilkarskikompas.pl";
 $message = $_POST["msg"];
 
 $txt = "Imię: " . $name . "\r\n" . "Email: " . $from . "\r\n" . "\r\n" . "Treść: " . $message;
